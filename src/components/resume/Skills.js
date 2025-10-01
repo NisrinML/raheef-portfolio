@@ -116,6 +116,13 @@ const Skills = () => {
               <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
+             {/* Tekla structure   */}
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Tekla structure  </p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
         </div>
       </div>
       <div className="w-full h-full hidden lgl:flex justify-center items-center">

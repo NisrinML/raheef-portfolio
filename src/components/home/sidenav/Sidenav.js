@@ -11,12 +11,9 @@ const Sidenav = () => {
       </ul>
       <SidenavTitle title="P" subTitle="rojects" />
       <ul>
-        <li className="sidenavLi">Web Development</li>
-        <li className="sidenavLi">E-commerce</li>
-        <li className="sidenavLi">Chatting Applications</li>
-        <li className="sidenavLi">Portfolio Websites</li>
-        <li className="sidenavLi">Backend Setup</li>
-        <li className="sidenavLi">Amazon Clone</li>
+        <li className="sidenavLi">Farm project </li>
+        <li className="sidenavLi">Hospital  project</li>
+        <li className="sidenavLi">University graduation project</li>
       </ul>
       <SidenavTitle title="L" subTitle="atest Posts" />
       <ul>
@@ -29,8 +26,8 @@ const Sidenav = () => {
       </ul>
       <SidenavTitle title="R" subTitle="each Me" />
       <ul>
-        <li className="sidenavLi">+968 24769821</li>
-        <li className="sidenavLi">noor.jsdivs@gmail.com</li>
+        <li className="sidenavLi">+963 936674601</li>
+        <li className="sidenavLi">Raheefmah@gmail.com</li>
       </ul>
     </div>
   );
