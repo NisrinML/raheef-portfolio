@@ -47,7 +47,7 @@ const Education = () => {
           content="Graphic design"
         />
         <CourseCard
-          content="Photo shop"
+          content="Photoshop"
         />
         <CourseCard
           content="Illustrator"
