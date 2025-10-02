@@ -1,5 +1,4 @@
 import React, {useRef, useState } from "react";
-import axios from "axios";
 import { FiSend } from "react-icons/fi";
 import Title from "../home/Title";
 import emailjs from '@emailjs/browser';
