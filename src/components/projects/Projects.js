@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  workImgOne,
-  workImgTwo,
-  workImgThree,
-  workImgFour,
-  workImgFive,
-  workImgSix,
-  workImgSeven,
-  workImgEight,
-} from "../../assets";
+import {m1,l1,l2,p1,p2,p3,p4,p5,p6} from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
 
@@ -19,46 +10,55 @@ const Projects = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
           <ProjectsCard
-            title="Blog Website"
-            category="Website"
-            image={workImgThree}
+            title="Graduation Project"
+            category="Structural and Seismic Study Project"
+            image={m1}
+            pdf={true}
           />
           <ProjectsCard
-            title="Business Card Design"
-            category="Design"
-            image={workImgOne}
-          />
-          <ProjectsCard
-            title="Infinity Logo"
+            title="logo1"
             category="Logo"
-            image={workImgTwo}
+            image={l1}
           />
           <ProjectsCard
-            title="Mobile Application"
-            category="Shopping"
-            image={workImgFive}
+            title="logo2"
+            category="Logo"
+            image={l2}
           />
+   
+              <ProjectsCard
+            title="Caste & Create"
+            category="Poster"
+            image={p6}
+          />
+
         </div>
         <div className="px-6">
           <ProjectsCard
-            title="Responsive website"
-            category="E-commerce"
-            image={workImgFour}
+            title="Price List"
+            category="Poster"
+            image={p2}
+          />
+   
+          <ProjectsCard
+            title="Valentine"
+            category="Poster"
+            image={p4}
           />
           <ProjectsCard
-            title="Grapic Design"
-            category="Design"
-            image={workImgSix}
+            title="Metabolism"
+            category="Poster"
+            image={p5}
           />
-          <ProjectsCard
-            title="Ideas & Blog"
-            category="Website"
-            image={workImgEight}
+                 <ProjectsCard
+            title="Beauty Clinic"
+            category="Poster"
+            image={p1}
           />
-          <ProjectsCard
-            title="ZOSS Logo"
-            category="Logo"
-            image={workImgSeven}
+                           <ProjectsCard
+            title="Ehdaa"
+            category="Poster"
+            image={p3}
           />
         </div>
       </div>

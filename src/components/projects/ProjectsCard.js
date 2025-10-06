@@ -1,6 +1,6 @@
 import React from "react";
-
-const ProjectsCard = ({ image, title, category }) => {
+import Pdf from "../../assets/project1.pdf";
+const ProjectsCard = ({ image, title, category,pdf }) => {
   return (
     <div className="w-full py-8 flex flex-col justify-center items-center border-b-[1px] border-b-zinc-800">
       <div className="w-full h-full mb-3 overflow-hidden relative cursor-pointer group">
@@ -15,6 +15,8 @@ const ProjectsCard = ({ image, title, category }) => {
         {title}
       </h3>
       <p className="text-base text-gray-400 -mt-1">{category}</p>
+      {pdf&&<a  href={Pdf} target="_blank"  rel="noreferrer"
+      className="text-base text-designColor mt-1 hover:cursor-pointer hover:scale-[1.1]">Download From here</a>}
     </div>
   );
 };

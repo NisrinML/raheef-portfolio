@@ -11,7 +11,7 @@ import { bannerImg } from "../../assets/index";
 const Left = ({setAbout,
               setResume,
               setProjects,
-              setBlog,
+              // setBlog,
               setContact}) => {
   const [text] = useTypewriter({
     words: ["Civil Engineer", "Graphic Designer"],
@@ -22,7 +22,7 @@ const Left = ({setAbout,
   });
   return (
     <div className="w-full lgl:w-5/12 h-full flex flex-col items-center justify-center bg-bodyColor rounded-2xl shadow-testShwdow z-10">
-   <div className="w-[60%] rounded-full bg-designColor mt-8 md:mt-0 overflow-hidden">
+   <div className="w-[60%] rounded-full bg-textColor mt-8 md:mt-0 overflow-hidden">
   <img
     className="w-full h-full object-cover"
     src={bannerImg}
@@ -77,7 +77,7 @@ const Left = ({setAbout,
               setAbout(false) &
               setResume(false) &
               setProjects(false) &
-              setBlog(false) &
+              // setBlog(false) &
               setContact(true)
             }
           >
