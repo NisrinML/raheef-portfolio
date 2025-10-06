@@ -1,9 +1,9 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { BsCloudLightningFill, BsFacebook } from "react-icons/bs";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { SiYoutubemusic } from "react-icons/si";
+// import { FaGithub, FaLinkedin } from "react-icons/fa";
+// import { AiFillTwitterCircle } from "react-icons/ai";
+// import { SiYoutubemusic } from "react-icons/si";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
 import CV from "../../assets/Raheef_AlMahfoud_resume.pdf";
 import { bannerImg } from "../../assets/index";
@@ -22,7 +22,7 @@ const Left = ({setAbout,
   });
   return (
     <div className="w-full lgl:w-5/12 h-full flex flex-col items-center justify-center bg-bodyColor rounded-2xl shadow-testShwdow z-10">
-   <div className="w-[60%] rounded-full bg-textColor mt-8 md:mt-0 overflow-hidden">
+   <div className="w-[60%] rounded-full bg-gray-400 mt-8 md:mt-0 overflow-hidden">
   <img
     className="w-full h-full object-cover"
     src={bannerImg}
@@ -38,7 +38,7 @@ const Left = ({setAbout,
             <Cursor cursorBlinking="false" cursorStyle="|" />
           </p>
           <div className="flex justify-center gap-2 mt-2">
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+            {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FaGithub />
             </span>
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
@@ -46,19 +46,22 @@ const Left = ({setAbout,
             </span>
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <SiYoutubemusic />
-            </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+            </span> */}
+            <a href="https://www.facebook.com/share/1EzsQqxo9U/" target="_blank"  rel="noreferrer" 
+            className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <BsFacebook />
-            </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+            </a>
+            <a href="https://www.instagram.com/raheefmah?igsh=MWVqNHJkcTZ6enJ6bQ==" target="_blank"  rel="noreferrer" 
+            className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FiInstagram />
-            </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+            </a>
+            {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <AiFillTwitterCircle />
-            </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+            </span> */}
+            <a href="mailto:Raheefmah@gmail.com" target="_blank"  rel="noreferrer" 
+            className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FiMail />
-            </span>
+            </a>
           </div>
         </div>
         <div className="flex h-14">

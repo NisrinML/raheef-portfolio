@@ -16,12 +16,12 @@ const Projects = () => {
             pdf={true}
           />
           <ProjectsCard
-            title="logo1"
+            title="Caste & Create"
             category="Logo"
             image={l1}
           />
           <ProjectsCard
-            title="logo2"
+            title="Physical Therapy"
             category="Logo"
             image={l2}
           />
@@ -52,7 +52,7 @@ const Projects = () => {
           />
                  <ProjectsCard
             title="Beauty Clinic"
-            category="Poster"
+            category="Logo"
             image={p1}
           />
                            <ProjectsCard

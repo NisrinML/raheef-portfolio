@@ -11,11 +11,17 @@ const Sidenav = () => {
       </ul>
       <SidenavTitle title="P" subTitle="rojects" />
       <ul>
-        <li className="sidenavLi">Farm project </li>
-        <li className="sidenavLi">Hospital  project</li>
-        <li className="sidenavLi">University graduation project</li>
+        <li className="sidenavLi">Structural and Seismic Study Project</li>
+        <li className="sidenavLi">Caste & Create Logo </li>
+        <li className="sidenavLi">Physical Therapy Logo</li>
+        <li className="sidenavLi">Caste & Create Poster</li>
+        <li className="sidenavLi">Price List Poster</li>
+        <li className="sidenavLi">Valentine Poster</li>
+        <li className="sidenavLi">Metabolism Poster</li>
+        <li className="sidenavLi">Beauty Clinic Logo</li>
+        <li className="sidenavLi">Ehdaa Poster</li>
       </ul>
-      <SidenavTitle title="L" subTitle="atest Posts" />
+      {/* <SidenavTitle title="L" subTitle="atest Posts" />
       <ul>
         <li className="sidenavLi">UI & UX Conference at Lviv 2022</li>
         <li className="sidenavLi">How to become a creative designer</li>
@@ -23,7 +29,7 @@ const Sidenav = () => {
           Designers thoughts about mobile UI templates
         </li>
         <li className="sidenavLi">Designer Conference at Florida, USA 2020</li>
-      </ul>
+      </ul> */}
       <SidenavTitle title="R" subTitle="each Me" />
       <ul>
         <li className="sidenavLi">+963 936674601</li>
