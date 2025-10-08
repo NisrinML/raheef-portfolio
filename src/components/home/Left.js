@@ -22,7 +22,7 @@ const Left = ({setAbout,
   });
   return (
     <div className="w-full lgl:w-5/12 h-full flex flex-col items-center justify-center bg-bodyColor rounded-2xl shadow-testShwdow z-10">
-   <div className="w-[60%] rounded-full bg-gradient-to-b from-textColor  to-designColor mt-8 md:mt-0 overflow-hidden ">
+   <div className="w-[60%] rounded-full bg-gradient-to-b from-textColor/90  to-gray-700 mt-8 md:mt-0 overflow-hidden ">
 
   <img
     className="w-full h-full object-cover z-10"
