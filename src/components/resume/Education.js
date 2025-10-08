@@ -43,6 +43,7 @@ const Education = () => {
           des="Baccalaureate."
         />
         <ResumeTitle title="Courses" icon={<SiBookstack />} />
+        <ul className="list-disc ml-4">
         <CourseCard
           content="Graphic design"
         />
@@ -58,7 +59,7 @@ const Education = () => {
         <CourseCard
           content="Microsoft office"
         />
-   
+        </ul>
       </div>
     </div>
   );

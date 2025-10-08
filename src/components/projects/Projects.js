@@ -16,7 +16,7 @@ const Projects = () => {
             pdf={true}
           />
           <ProjectsCard
-            title="Caste & Create"
+            title="Resin artist"
             category="Logo"
             image={l1}
           />
@@ -27,7 +27,7 @@ const Projects = () => {
           />
    
               <ProjectsCard
-            title="Caste & Create"
+            title="Resin artist"
             category="Poster"
             image={p6}
           />

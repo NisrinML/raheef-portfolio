@@ -22,17 +22,19 @@ const Left = ({setAbout,
   });
   return (
     <div className="w-full lgl:w-5/12 h-full flex flex-col items-center justify-center bg-bodyColor rounded-2xl shadow-testShwdow z-10">
-   <div className="w-[60%] rounded-full bg-gray-400 mt-8 md:mt-0 overflow-hidden">
+   <div className="w-[60%] rounded-full bg-gradient-to-b from-textColor  to-designColor mt-8 md:mt-0 overflow-hidden ">
+
   <img
-    className="w-full h-full object-cover"
+    className="w-full h-full object-cover z-10"
     src={bannerImg}
     loading="priority"
     alt="bannerImage"
   />
+
 </div>
       <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
         <div className="flex flex-col items-center gap-2 py-10">
-          <h1 className="text-textColor text-4xl font-semibold">Raheef Al-Mahfoud</h1>
+          <h1 className="text-textColor text-4xl font-semibold px-4 md:px-0">Raheef Al-Mahfoud</h1>
           <p className="text-base text-designColor tracking-wide">
             {text}
             <Cursor cursorBlinking="false" cursorStyle="|" />
@@ -47,18 +49,18 @@ const Left = ({setAbout,
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <SiYoutubemusic />
             </span> */}
-            <a href="https://www.facebook.com/share/1EzsQqxo9U/" target="_blank"  rel="noreferrer" 
+            <a href="https://www.facebook.com/share/1EzsQqxo9U/" target="_blank"  rel="noreferrer"  aria-label="Facebook"
             className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <BsFacebook />
             </a>
-            <a href="https://www.instagram.com/raheefmah?igsh=MWVqNHJkcTZ6enJ6bQ==" target="_blank"  rel="noreferrer" 
+            <a href="https://www.instagram.com/raheefmah?igsh=MWVqNHJkcTZ6enJ6bQ==" target="_blank"  rel="noreferrer" aria-label="Instagram"
             className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FiInstagram />
             </a>
             {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <AiFillTwitterCircle />
             </span> */}
-            <a href="mailto:Raheefmah@gmail.com" target="_blank"  rel="noreferrer" 
+            <a href="mailto:Raheefmah@gmail.com" target="_blank"  rel="noreferrer" aria-label="Gmail"
             className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FiMail />
             </a>
@@ -71,7 +73,7 @@ const Left = ({setAbout,
             className="w-1/2 border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase  gap-2 hover:text-designColor duration-300"
             rel="noreferrer"
           >
-            <button className="w-full h-full flex justify-center items-center gap-2">
+            <button className="w-full h-full p-1 flex justify-center items-center gap-2">
               Download CV <BsCloudLightningFill />
             </button>
           </a>

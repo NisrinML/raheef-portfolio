@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <div className="w-full grid grid-cols-9 gap-10 lgl:gap-0 px-6">
       {/* =============== Design and Languages Start here =================== */}
-      <div className="col-span-9 md:col-span-4">
+      <div className="col-span-7 md:col-span-4">
         <ResumeTitle title="Engineering" icon={<SiArtstation />} />
         {/* Structure study*/}
         <div className="py-4">
@@ -47,7 +47,7 @@ const Skills = () => {
       <div className="w-full h-full hidden lgl:flex justify-center items-center">
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
-      <div className="col-span-9 md:col-span-4">
+      <div className="col-span-7 md:col-span-4">
         <ResumeTitle title="Languages" icon={<FaFlag />} />
         {/* Arabic */}
           <div className="py-3 border-b-[1px] border-zinc-800">
@@ -79,7 +79,7 @@ const Skills = () => {
       {/* =============== Coading and Knowledge End here ==================== */}
 
     
-        <div className="col-span-9 md:col-span-4">
+        <div className="col-span-7 md:col-span-4">
         <ResumeTitle title="Engineering softwares" icon={<IoIosPaper />} />
         {/* CAI Etabs */}
          <div className="py-4">
@@ -129,7 +129,7 @@ const Skills = () => {
       <div className="w-full h-full hidden lgl:flex justify-center items-center">
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
-      <div className="col-span-9 md:col-span-4">
+      <div className="col-span-7 md:col-span-4">
         <ResumeTitle title="Graphics design" icon={<BiCodeAlt />} />
         {/* Photoshop */}
         <div className="py-4">
