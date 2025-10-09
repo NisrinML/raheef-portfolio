@@ -56,7 +56,7 @@ const Contact = () => {
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
               Phone:
             </span>
-            +963 936674601
+            +963 936 674 601
           </p>
         </div>
         <div className="w-full lgl:w-1/2">
@@ -95,24 +95,24 @@ const Contact = () => {
             <div className="w-full flex flex-col lgl:flex-row gap-4 lgl:gap-10 justify-between">
               <input
                 type='text' placeholder='Name' name='name' required 
-                className={` border-zinc-600 focus-visible:border-designColor
+                className={` border-zinc-600 focus-visible:border-designColor rounded-md
                  w-full bg-transparent border-2 px-4 py-2 text-base text-gray-200 outline-none duration-300`}
                 // className="w-full bg-transparent border-2 px-4 py-2 text-base text-gray-200 border-zinc-600 focus-visible:border-designColor outline-none duration-300"
               />
               <input
                 type='email' placeholder='Email' name='email' required
-                className={` border-zinc-600 focus-visible:border-designColor  w-full bg-transparent border-2 px-4 py-2 text-base text-gray-200 outline-none duration-300`}
+                className={` border-zinc-600 focus-visible:border-designColor  rounded-md  w-full bg-transparent border-2 px-4 py-2 text-base text-gray-200 outline-none duration-300`}
               />
             </div>
             <textarea
               rows='4' placeholder='Message' name='message' required
-              className={`border-zinc-600 focus-visible:border-designColor w-full bg-transparent border-2 px-4 py-2 text-base text-gray-200 outline-none duration-300 resize-none`}
+              className={`border-zinc-600 focus-visible:border-designColor w-full  rounded-md bg-transparent border-2 px-4 py-2 text-base text-gray-200 outline-none duration-300 resize-none`}
             ></textarea>
             <button
              type='submit'  aria-label="submit"
               className="text-base w-44 flex items-center gap-1 text-gray-200 hover:text-designColor duration-200"
             >
-              {isLoading?AiOutlineLoading3Quarters:<span className="flex flex-row gap-4 items-center justify-center"> Send Message{" "}<FiSend /></span>}              
+              {isLoading?AiOutlineLoading3Quarters:<span className="flex flex-row gap-4 items-center justify-center"><FiSend /> Send Message{" "}</span>}              
             </button>
 
           </form>

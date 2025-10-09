@@ -74,7 +74,7 @@ const Left = ({setAbout,
             rel="noreferrer"
           >
             <button className="w-full h-full p-1 flex justify-center items-center gap-2">
-              Download CV <BsCloudLightningFill />
+             <BsCloudLightningFill /> Download CV 
             </button>
           </a>
           <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300"
@@ -86,7 +86,7 @@ const Left = ({setAbout,
               setContact(true)
             }
           >
-            Contact me <FiSend />
+           <FiSend /> Contact me 
           </button>
         </div>
       </div>
