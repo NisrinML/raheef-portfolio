@@ -20,7 +20,7 @@ contribute to innovative projects while further developing my skills.
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Residence:</span>
-            Syria
+            Germany
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Freelance:</span>
@@ -28,7 +28,7 @@ contribute to innovative projects while further developing my skills.
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Address:</span>
-             Hama, Syria
+            <span className="px-2 text-right"> Deutschland, Hamburg, Himmelstraße 10, 22299</span>
           </li>
         </ul>
       </div>

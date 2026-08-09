@@ -11,6 +11,12 @@ const Education = () => {
     <div className="w-full grid grid-cols-9 px-6">
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Experience" icon={<MdWork />} />
+           <ResumeCard
+          badge="2026 May 1 – Present"
+          title="Civil Engineering"
+          subTitle="Fiber Optic & Coaxial Cable Installation."
+          des="Coordinated fiber-optic and coaxial cable installations in residential units, including routing, drilling, cable blowing, outlet installation, termination, fusion splicing, and connection work."
+        />
           <ResumeCard
           badge="2022 - Present"
           title="Civil Engineering"

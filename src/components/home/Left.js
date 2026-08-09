@@ -60,7 +60,7 @@ const Left = ({setAbout,
             {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <AiFillTwitterCircle />
             </span> */}
-            <a href="mailto:Raheefmah@gmail.com" target="_blank"  rel="noreferrer" aria-label="Gmail"
+            <a href="mailto:Raheef@almahfoud.de" target="_blank"  rel="noreferrer" aria-label="Gmail"
             className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FiMail />
             </a>

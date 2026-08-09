@@ -32,8 +32,8 @@ const Sidenav = () => {
       </ul> */}
       <SidenavTitle title="R" subTitle="each Me" />
       <ul>
-        <li className="sidenavLi">+963 936 674 601</li>
-        <li className="sidenavLi">Raheefmah@gmail.com</li>
+        <li className="sidenavLi">+49 16 098 194 130</li>
+        <li className="sidenavLi">Raheef@almahfoud.de</li>
       </ul>
     </div>
   );
